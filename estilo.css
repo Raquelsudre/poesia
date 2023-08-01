@@ -39,13 +39,37 @@ a:hover{
 main{
 
     background-color: white;
-    text-align: justify;
-    font: italic bolder 2em ' worksans','sans-serif';
-    padding: 50px;
+   
+    max-height:  100vh;
+     background-size: cover;
+    background-image: url('imagem/amor_passaros.jpg');
+     background-attachment: fixed;
+   
 
 }
-main p#paragrafo-2{
-    color: white;
-    background-image: url('imagem/amor_passaros.jpg');
+main p{ 
+    font: italic bolder 2em ' worksans','sans-serif';
+    text-align: justify;
+    padding: 50px;
+    padding-top: 40px;
+}
+p.img{ 
+   
+   
+
+}
+ p#paragrafo-2{
+     margin: 40px;
+     max-width: 350px;
+     max-height: 200px;
+    
+     background-color: rgba(0, 0, 0, 0.513);
+    
+     color: white; 
+    
+    
+     
+    
+   
 
 }
