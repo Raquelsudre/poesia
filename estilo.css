@@ -36,40 +36,61 @@ a:visited{
 a:hover{
     color: dimgray;
 }
-main{
+main p{ 
+    font: italic bolder 2em  'Gill Sans', 'Gill Sans MT','Trebuchet MS' ;
+    text-align: justify;
+    margin: 40px;
+    padding: 50px;
+    padding-top: 40px;
+   
+}
+
+ div.bloco1{
 
     background-color: white;
    
     max-height:  100vh;
-     background-size: cover;
+     /* background-size: cover; */
     background-image: url('imagem/amor_passaros.jpg');
+   
      background-attachment: fixed;
-   
-
-}
-main p{ 
-    font: italic bolder 2em ' worksans','sans-serif';
-    text-align: justify;
-    padding: 50px;
-    padding-top: 40px;
-}
-p.img{ 
-   
-   
-
-}
- p#paragrafo-2{
-     margin: 40px;
-     max-width: 350px;
-     max-height: 200px;
+     background-position:  right center  ;
     
+    
+   
+
+}
+div.bloco2{
+    max-height:  100vh;
+     background-image: url('imagem/amor-antigo.jpg');
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position:  top center ;
+}
+
+ p#paragrafo-1{
+    
+     max-width: 400px;
+     min-width: 300px;
+     max-height: 300px;
+     min-height: 200px;
      background-color: rgba(0, 0, 0, 0.513);
-    
      color: white; 
-    
-    
-     
-    
-   
+}
 
+p#paragrafo-2{
+  
+    max-width: 400px;
+    min-width: 300px;
+    background-color: rgba(0, 0, 0, 0.513);
+    color: white; 
+}
+footer{
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
 }
