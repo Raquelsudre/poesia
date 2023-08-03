@@ -1,45 +1,47 @@
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-color: white;
+}
 header{
+
     background-color: black;
-    min-width: 150px;
-    
-    
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.514);
+     width: 100%;
+     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.514); 
 }
 header h1{
     font-family: 'Berkshire Swash', cursive;
     color: white;
     text-align: center;
     font-size: 50px;
-    padding: 50px 0px 10px 0px;
+    /* padding: 50px 0px 10px 0px; */
     
 
 }
 header p{
     font-family:'Courier New', Courier, monospace;
+    
     color: white;
     text-align: center;
 
 }
 header a{
     text-decoration:none;
-   
-}
-a:visited{
     color: white;
 }
+
 a:hover{
     color: dimgray;
 }
 main p{ 
     font: italic bolder 2em  'Gill Sans', 'Gill Sans MT','Trebuchet MS' ;
     text-align: justify;
-    margin: 40px;
+    /* margin: 40px; */
     padding: 50px;
     padding-top: 40px;
    
@@ -48,20 +50,16 @@ main p{
  div.bloco1{
 
     background-color: white;
-   
-    max-height:  100vh;
-     /* background-size: cover; */
     background-image: url('imagem/amor_passaros.jpg');
-   
-     background-attachment: fixed;
-     background-position:  right center  ;
+    background-attachment: fixed;
+     background-position:  center  ;
     
     
    
 
 }
 div.bloco2{
-    max-height:  100vh;
+   
      background-image: url('imagem/amor-antigo.jpg');
      background-size: 100% 100%;
      background-repeat: no-repeat;
@@ -91,6 +89,6 @@ footer{
     background-color: black;
     width: 100%;
     height: 30px;
-    padding: 10px;
+    padding-top: 10px;
     text-align: center;
 }
