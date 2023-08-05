@@ -5,9 +5,11 @@
     margin: 0px;
     padding: 0px;
 }
+
 body{
     background-color: white;
 }
+
 header{
 
     background-color: black;
@@ -15,38 +17,27 @@ header{
     height: 200px;
      box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.514); 
 }
+
 header h1{
     font-family: 'Berkshire Swash', cursive;
     color: white;
     text-align: center;
     font-size: 50px;
-     padding: 50px 0px 10px 0px; 
-    
-
+     padding: 50px 5px 10px 5px; 
 }
+
 header p{
     font-family:'Courier New', Courier, monospace;
-    
-    padding-bottom: 15px;
+     padding-bottom: 15px;
     color: white;
     text-align: center;
-
-}
- a{
-    text-decoration:none;
-    color: white;
 }
 
-a:hover{
-    color: dimgray;
-}
 main p{ 
     font: italic bolder 2em  'Gill Sans', 'Gill Sans MT','Trebuchet MS' ;
     text-align: justify;
-    /* margin: 40px; */
-    padding: 50px;
-    padding-top: 40px;
    
+    padding: 40px 40px 0px 40px;
 }
 
  div.bloco1{
@@ -55,14 +46,10 @@ main p{
     background-size: 100% 100%;
     background-image: url('imagem/amor_passaros.jpg');
     background-attachment: fixed;
-     background-position:  center  ;
-    
-    
-   
-
+     background-position:  center;
 }
+
 div.bloco2{
-   
      background-image: url('imagem/amor-antigo.jpg');
      background-size: 100% 100%;
      background-repeat: no-repeat;
@@ -87,6 +74,7 @@ p#paragrafo-2{
     background-color: rgba(0, 0, 0, 0.513);
     color: white; 
 }
+
 footer{
     color: white;
     background-color: black;
@@ -94,4 +82,13 @@ footer{
     height: 30px;
     padding-top: 10px;
     text-align: center;
+}
+
+ a{
+    text-decoration:none;
+    color: white;
+}
+
+a:hover{
+    color: dimgray;
 }
