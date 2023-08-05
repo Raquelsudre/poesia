@@ -34,10 +34,8 @@ header p{
 }
 
 main p{ 
-    font: italic bolder 2em  'Gill Sans', 'Gill Sans MT','Trebuchet MS' ;
-    text-align: justify;
-   
-    padding: 40px 40px 0px 40px;
+    font: italic bolder 2em 'Gill Sans', 'Gill Sans MT','Trebuchet MS' ;
+    padding: 20px 40px 20px 40px;
 }
 
  div.bloco1{
@@ -57,23 +55,14 @@ div.bloco2{
      background-position:  top center ;
 }
 
- p#paragrafo-1{
+ p#paragrafo{
     
-     max-width: 400px;
-     min-width: 300px;
-     max-height: 300px;
-     min-height: 200px;
-     background-color: rgba(0, 0, 0, 0.513);
-     color: white; 
-}
-
-p#paragrafo-2{
-  
-    max-width: 400px;
-    min-width: 300px;
+    max-width: 350px; 
     background-color: rgba(0, 0, 0, 0.513);
     color: white; 
 }
+
+
 
 footer{
     color: white;
