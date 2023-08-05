@@ -35,7 +35,7 @@ header p{
 
 main p{ 
     font: italic bolder 2em 'Gill Sans', 'Gill Sans MT','Trebuchet MS' ;
-    padding: 20px 40px 20px 40px;
+    padding: 20px 20px 20px 20px;
 }
 
  div.bloco1{
@@ -58,6 +58,7 @@ div.bloco2{
  p#paragrafo{
     
     max-width: 350px; 
+    margin: 10px;
     background-color: rgba(0, 0, 0, 0.513);
     color: white; 
 }
