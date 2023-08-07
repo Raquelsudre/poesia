@@ -51,9 +51,7 @@ section{
     line-height: 2em;
     padding-left: 30px;
 }
-section > p{
-    padding-left: 2em;
-}
+
 
 section.normal{
     background-color: white;
@@ -67,9 +65,10 @@ section.imagem{
 }
    
 section.imagem >p {
-    width: 400px;
+    max-width: 400px;
     background-color: rgba(0, 0, 0, 0.446);
     text-shadow:  2px 2px 0px rgba(0, 0, 0, 0.511);
+    margin: 15px;
 }
 section#imagem1{
 
