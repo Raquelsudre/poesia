@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
 
 *{
     margin: 0px;
@@ -7,47 +8,79 @@
 }
 
 body{
-    background-color: white;
+    min-height: 100vh;
+    background-color: darkgray;
 }
 
 header{
-
     background-color: black;
+    color: white;
     min-width: 150px;
     height: 200px;
      box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.514); 
 }
 
 header h1{
-    font-family: 'Berkshire Swash', cursive;
-    color: white;
+    font-family: 'Berkshire Swash','cursive';
+    font-size: 6vw;
     text-align: center;
-    font-size: 50px;
-     padding: 50px 5px 10px 5px; 
+    padding: 50px 5px 10px 5px; 
 }
 
 header p{
     font-family:'Courier New', Courier, monospace;
-     padding-bottom: 15px;
-    color: white;
+    padding-bottom: 50px;
     text-align: center;
 }
 
-main p{ 
-    font: italic bolder 2em 'Gill Sans', 'Gill Sans MT','Trebuchet MS' ;
-    padding: 20px 20px 20px 20px;
+
+header a, footer a {
+    text-decoration:none;
+    color: white;
+    font-weight: bolder;
 }
 
- div.bloco1{
+a:hover{
+    text-decoration: underline;
+    color: dimgray;
+}
+section{
+    font: 3vw 'Borel', 'cursive';  
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+section > p{
+    padding-left: 2em;
+}
 
+section.normal{
     background-color: white;
+    color: black;
+   
+}
+section.imagem{
+    background-color: rgb(44, 40, 40);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.64);
+}
+   
+section.imagem >p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.446);
+    text-shadow:  2px 2px 0px rgba(0, 0, 0, 0.511);
+}
+section#imagem1{
+
+   
     background-size: 100% 100%;
     background-image: url('imagem/amor_passaros.jpg');
     background-attachment: fixed;
-     background-position:  center;
 }
+    
 
-div.bloco2{
+section#imagem2{
      background-image: url('imagem/amor-antigo.jpg');
      background-size: 100% 100%;
      background-repeat: no-repeat;
@@ -55,30 +88,10 @@ div.bloco2{
      background-position:  top center ;
 }
 
- p#paragrafo{
-    
-    max-width: 350px; 
-    margin: 10px;
-    background-color: rgba(0, 0, 0, 0.513);
-    color: white; 
-}
-
-
-
 footer{
     color: white;
     background-color: black;
-   
     height: 30px;
     padding-top: 10px;
     text-align: center;
-}
-
- a{
-    text-decoration:none;
-    color: white;
-}
-
-a:hover{
-    color: dimgray;
 }
