@@ -65,15 +65,16 @@ section.imagem{
 }
    
 section.imagem >p {
-    max-width: 400px;
+    max-width: 500px;
     background-color: rgba(0, 0, 0, 0.446);
     text-shadow:  2px 2px 0px rgba(0, 0, 0, 0.511);
-    margin: 15px;
+    margin: 30px;
 }
 section#imagem1{
 
    
     background-size: 100% 100%;
+    background-position: center right;
     background-image: url('imagem/amor_passaros.jpg');
     background-attachment: fixed;
 }
@@ -93,4 +94,5 @@ footer{
     height: 30px;
     padding-top: 10px;
     text-align: center;
+    
 }
